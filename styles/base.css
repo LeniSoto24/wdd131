@@ -21,7 +21,9 @@ header {
     text-align: center;
     background-color: var(--primaty-background-color);
 }
-
+span {
+    display: block;
+}
 #course-title {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -36,6 +38,7 @@ nav {
     padding: 1rem;
 }
 nav a {
+    /* display: block; */
     flex: 1 1 auto;
     text-decoration: none;
     color: var(--primary-color);
@@ -48,6 +51,7 @@ nav a:hover {
 }
 
 main {
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
@@ -111,7 +115,7 @@ p {
 
 figcaption {
     position: absolute;
-    top: 450px;
+    top: 505px;
     margin-left: 9px;
     margin-right: 1000px;
     text-align: center;
@@ -133,6 +137,7 @@ ul li a:hover {
 }
 
 footer {
+    white-space: nowrap;
     text-align: center;
     background-color: var(--primaty-background-color);
     color: var(--primary-color);
