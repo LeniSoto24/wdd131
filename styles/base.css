@@ -75,7 +75,6 @@ h3 {
     text-align: center;
     color: var(--accent1-color);
     padding: 1rem auto;
-    border-bottom: 1px solid var(--accnt1-color);
 }
 .card {
     margin: 20px;
