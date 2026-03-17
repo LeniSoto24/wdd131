@@ -6,11 +6,18 @@ body {
 header, main, footer {
     max-width: 640px;
     margin: 1rem auto;
-    border: ;
-    padding: ;
-    background: ;
+    border: 1.7px solid rgba(3, 48, 115, 0.3);
+    padding: 0.5rem;
+    background: #6fcedf;
 }
 
 main {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    background-color: lightgray;
+    padding: 1rem;
 }
