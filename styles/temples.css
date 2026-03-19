@@ -28,6 +28,16 @@ header {
     justify-content: space-around;
 }
 
+#menuButton {
+    display: none;
+}
+
+#navMenu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
 h1 {
     padding: 10px;
 }
@@ -74,4 +84,9 @@ figure img {
 figcaption {
     color : var(--primary-color);
     font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
 }
