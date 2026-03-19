@@ -12,15 +12,14 @@ body {
     --primary-color: #B0C4DE;
     --secondary-color: #6fcedf;
     --accent1-color: black;
-    --heading-font: "Times New Roman", "Georgia", serif;
     --primary-display: flex;
-    --primaty-background-color: #3f065b;
+    --primary-background-color: #3f065b;
     --secondary-background-color: lightgray;
 }
 
 header {
     text-align: center;
-    background-color: var(--primaty-background-color);
+    background-color: var(--primary-background-color);
 }
 span {
     display: block;
@@ -47,6 +46,7 @@ nav a {
 
 nav a:hover {
     color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 main {
@@ -64,7 +64,7 @@ h1 {
 
 h2 {
     text-align: center;
-    background-color: var(--primaty-background-color);
+    background-color: var(--primary-background-color);
     color: var(--primary-color);
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -135,6 +135,6 @@ ul li a:hover {
 footer {
     white-space: nowrap;
     text-align: center;
-    background-color: var(--primaty-background-color);
+    background-color: var(--primary-background-color);
     color: var(--primary-color);
 }
