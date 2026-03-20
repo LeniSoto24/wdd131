@@ -12,7 +12,7 @@ body {
     --primary-color: #B0C4DE;
     --secondary-color: #6fcedf;
     --accent1-color: black;
-    --primary-display: flex;
+    /* --primary-display: flex; */
     --primary-background-color: #3f065b;
     --secondary-background-color: lightgray;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 nav {
-    display: var(--primary-display);
+    display: flex;
 }
 
 nav a {
