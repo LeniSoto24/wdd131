@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: #B0C4DE;
+    --secondary-color: #6fcedf;
+    --accent1-color: black;
+    /* --primary-display: flex; */
+    --primary-background-color: #3f065b;
+    --secondary-background-color: lightgray;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+section {
+    background-color: var(--secondary-background-color)
+
+}
+
+section h2{
+    background-color: var(--primary-color);
+}
