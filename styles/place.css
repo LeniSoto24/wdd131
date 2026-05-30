@@ -66,3 +66,33 @@ section h2{
     right: 20px;
     bottom: 40px;
 }
+
+/* This part is for the small screens */
+@media (max-width: 768px) {
+
+    .hero img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-bottom: 10px solid var(--secondary-color);
+    }
+
+    section h2 {
+        text-align: center;
+        background: none;
+        width: auto;
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    .data, .weather {
+        text-align: center;
+        padding: 30px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        position: static;
+        border-bottom: 1px solid var(--secondary-color);
+    }
+
+
+}
