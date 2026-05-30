@@ -17,9 +17,14 @@ body {
     --secondary-background-color: lightgray;
 }
 
+.hero {
+    position: relative;
+    border-top: 10px solid var(--secondary-color);
+}
+
 .hero img {
     width: 100%;
-    height: auto;
+    display: block;
 }
 
 header, footer {
@@ -35,5 +40,29 @@ section {
 }
 
 section h2{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-align: left;
+    padding: 10px;
+    margin: -15px -15px 20px -15px;
+    width: 120px;
+}
+
+.data, .weather {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    position: absolute;
+    padding: 15px;
+    /* height: 200px; */
+}
+
+.data {
+    width: 365px;
+    top: 130px;
+    left: 20px;
+}
+
+.weather {
+    width: 320px;
+    right: 20px;
+    bottom: 40px;
 }
