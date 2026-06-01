@@ -44,7 +44,7 @@ section h2{
     text-align: left;
     padding: 10px;
     margin: -15px -15px 20px -15px;
-    width: 120px;
+    width: 140px;
 }
 
 .data, .weather {
@@ -65,6 +65,15 @@ section h2{
     width: 320px;
     right: 20px;
     bottom: 40px;
+}
+
+.weather img {
+    width: 33px;
+    height: auto;
+    position: absolute;
+    top: 1px;
+    left: 113px;
+    
 }
 
 /* This part is for the small screens */
@@ -94,5 +103,15 @@ section h2{
         border-bottom: 1px solid var(--secondary-color);
     }
 
+    .weather img {
+        position: static;
+        display: block;
+        margin: 10px auto 0 auto;
+    }
 
+    .weather img {
+        width: 55px;
+        margin-bottom: 20px;
+        border-bottom: none;
+    }
 }
