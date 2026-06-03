@@ -76,7 +76,7 @@ main {
     background-color: var(--primary-color);
     padding: 1rem;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .gallery section img {
