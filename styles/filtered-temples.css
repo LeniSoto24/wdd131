@@ -73,7 +73,7 @@ main {
 
 /* Temple Cards */
 .gallery section {
-    background-color: white;
+    background-color: var(--primary-color);
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
