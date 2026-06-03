@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0  auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    animation: fade 10s;
+    display: block;
+    margin: 5px auto;
+}
+@keyframes fade {
+    0% { 
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    text-align: center;
+}
