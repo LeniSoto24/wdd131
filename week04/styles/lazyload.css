@@ -17,9 +17,11 @@ main {
 img {
     width: 100%;
     animation: fade 10s;
+    /* animation: colorize 10s; */
     display: block;
     margin: 5px auto;
 }
+
 @keyframes fade {
     0% { 
         opacity: 0;
@@ -29,6 +31,11 @@ img {
         opacity: 1;
     }
 }
+
+/* @keyframes colorize {
+  from { filter: grayscale(100%) blur(5px); }
+  to { filter: grayscale(0%) blur(0); }
+} */
 
 footer {
     text-align: center;
